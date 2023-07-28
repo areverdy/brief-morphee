@@ -6,7 +6,7 @@ USE brief_morphee;
 CREATE TABLE "HOTEL" (
   "HOTEL_ID" integer PRIMARY KEY,
   "ENSEIGNE_ID" int,
-  "PAYS_ID" int,
+  "PAYS_ID" VARCHAR,
   "ZONE_GEOGRAPHIQUE_ID" int,
   "nom" VARCHAR,
   "nombre_etoiles" INTEGER,
